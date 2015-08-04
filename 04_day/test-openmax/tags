@@ -1,0 +1,138 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ANATOMYOMXCORE_H_	AnatomyOMXCore.h	19;"	d
+ANATOMY_OMXCLIENT_H_	AnatomyOMXClient.h	19;"	d
+ANATOMY_OMX_COMPONENT_H_	AnatomyOMXComponent.h	20;"	d
+ANATOMY_OMX_PLUGIN_H_	AnatomyOMXPlugin.h	20;"	d
+ATMParser	ATMParser.cpp	/^ATMParser::ATMParser()$/;"	f	class:anatomy::ATMParser
+ATMParser	ATMParser.h	/^class ATMParser {$/;"	c	namespace:anatomy
+ATM_PARSER_H_	ATMParser.h	18;"	d
+AnatomyOMXClient	AnatomyOMXClient.h	/^	AnatomyOMXClient(){}$/;"	f	struct:anatomy::AnatomyOMXClient
+AnatomyOMXClient	AnatomyOMXClient.h	/^struct AnatomyOMXClient {$/;"	s	namespace:anatomy
+AnatomyOMXComponent	AnatomyOMXComponent.cpp	/^AnatomyOMXComponent::AnatomyOMXComponent($/;"	f	class:android::AnatomyOMXComponent
+AnatomyOMXComponent	AnatomyOMXComponent.h	/^struct AnatomyOMXComponent : public SimpleSoftOMXComponent {$/;"	s	namespace:android
+AnatomyOMXPlugin	AnatomyOMXPlugin.cpp	/^AnatomyOMXPlugin::AnatomyOMXPlugin() {$/;"	f	class:android::AnatomyOMXPlugin
+AnatomyOMXPlugin	AnatomyOMXPlugin.h	/^struct AnatomyOMXPlugin : public OMXPluginBase {$/;"	s	namespace:android
+InitOMXParams	AnatomyOMXClient.cpp	/^static void InitOMXParams(T *params) {$/;"	f	namespace:anatomy
+InitOMXParams	AnatomyOMXComponent.cpp	/^static void InitOMXParams(T *params) {$/;"	f	namespace:android
+LOCAL_C_INCLUDES	Android.mk	/^LOCAL_C_INCLUDES := \\$/;"	m
+LOCAL_MODULE	Android.mk	/^LOCAL_MODULE    := anatomy_omx_client$/;"	m
+LOCAL_MODULE	Android.mk	/^LOCAL_MODULE    := libanatomy_atmdec$/;"	m
+LOCAL_MODULE_TAGS	Android.mk	/^LOCAL_MODULE_TAGS := tests$/;"	m
+LOCAL_PATH	Android.mk	/^LOCAL_PATH := $(call my-dir)$/;"	m
+LOCAL_SHARED_LIBRARIES	Android.mk	/^LOCAL_SHARED_LIBRARIES := \\$/;"	m
+LOCAL_SRC_FILES	Android.mk	/^LOCAL_SRC_FILES := \\$/;"	m
+LOGD	ATMParser.cpp	25;"	d	file:
+LOGD	AnatomyOMXClient.cpp	28;"	d	file:
+LOGD	AnatomyOMXComponent.cpp	29;"	d	file:
+LOGD	AnatomyOMXCore.cpp	29;"	d	file:
+LOGE	AnatomyOMXPlugin.cpp	31;"	d	file:
+LOGV	AnatomyOMXCore.cpp	30;"	d	file:
+LOGV	AnatomyOMXPlugin.cpp	30;"	d	file:
+LOGW	AnatomyOMXClient.cpp	27;"	d	file:
+LOG_TAG	ATMParser.cpp	19;"	d	file:
+LOG_TAG	AnatomyOMXClient.cpp	19;"	d	file:
+LOG_TAG	AnatomyOMXComponent.cpp	19;"	d	file:
+LOG_TAG	AnatomyOMXPlugin.cpp	19;"	d	file:
+LOG_TAG	StdoutRenderer.cpp	19;"	d	file:
+OMXClientBufferInfo	AnatomyOMXClient.h	/^	 struct OMXClientBufferInfo {$/;"	s	struct:anatomy::AnatomyOMXClient
+OMX_ComponentNameEnum	AnatomyOMXCore.cpp	/^OMX_ComponentNameEnum(OMX_OUT OMX_STRING componentName,$/;"	f
+OMX_Deinit	AnatomyOMXCore.cpp	/^OMX_Deinit()$/;"	f
+OMX_FreeHandle	AnatomyOMXCore.cpp	/^OMX_FreeHandle(OMX_IN OMX_HANDLETYPE hComp)$/;"	f
+OMX_GetComponentsOfRole	AnatomyOMXCore.cpp	/^OMX_GetComponentsOfRole(OMX_IN OMX_STRING      role,$/;"	f
+OMX_GetContentPipe	AnatomyOMXCore.cpp	/^OMX_GetContentPipe(OMX_OUT OMX_HANDLETYPE* pipe,$/;"	f
+OMX_GetHandle	AnatomyOMXCore.cpp	/^OMX_GetHandle(OMX_OUT OMX_HANDLETYPE*     handle,$/;"	f
+OMX_GetRolesOfComponent	AnatomyOMXCore.cpp	/^OMX_GetRolesOfComponent(OMX_IN OMX_STRING compName,$/;"	f
+OMX_Init	AnatomyOMXCore.cpp	/^OMX_Init()$/;"	f
+OMX_SetupTunnel	AnatomyOMXCore.cpp	/^OMX_SetupTunnel(OMX_IN OMX_HANDLETYPE outputComponent,$/;"	f
+OnEmptyBufferDone	AnatomyOMXClient.cpp	/^OMX_ERRORTYPE AnatomyOMXClient::OnEmptyBufferDone($/;"	f	class:anatomy::AnatomyOMXClient
+OnEvent	AnatomyOMXClient.cpp	/^OMX_ERRORTYPE AnatomyOMXClient::OnEvent($/;"	f	class:anatomy::AnatomyOMXClient
+OnFillBufferDone	AnatomyOMXClient.cpp	/^OMX_ERRORTYPE AnatomyOMXClient::OnFillBufferDone($/;"	f	class:anatomy::AnatomyOMXClient
+STDOUT_RENDERER_H_	StdoutRenderer.h	19;"	d
+StdoutRenderer	StdoutRenderer.h	/^	StdoutRenderer(){}$/;"	f	class:anatomy::StdoutRenderer
+StdoutRenderer	StdoutRenderer.h	/^class StdoutRenderer {$/;"	c	namespace:anatomy
+addOMXBufferInfo	AnatomyOMXClient.cpp	/^void AnatomyOMXClient::addOMXBufferInfo($/;"	f	class:anatomy::AnatomyOMXClient
+allocateBuffers	AnatomyOMXClient.cpp	/^void AnatomyOMXClient::allocateBuffers() {$/;"	f	class:anatomy::AnatomyOMXClient
+anatomy	ATMParser.cpp	/^namespace anatomy {$/;"	n	file:
+anatomy	ATMParser.h	/^namespace anatomy {$/;"	n
+anatomy	AnatomyOMXClient.cpp	/^namespace anatomy {$/;"	n	file:
+anatomy	AnatomyOMXClient.h	/^namespace anatomy {$/;"	n
+anatomy	StdoutRenderer.cpp	/^namespace anatomy {$/;"	n	file:
+anatomy	StdoutRenderer.h	/^namespace anatomy {$/;"	n
+android	AnatomyOMXComponent.cpp	/^namespace android {$/;"	n	file:
+android	AnatomyOMXComponent.h	/^namespace android {$/;"	n
+android	AnatomyOMXPlugin.cpp	/^namespace android {$/;"	n	file:
+android	AnatomyOMXPlugin.h	/^namespace android {$/;"	n
+changeState	AnatomyOMXClient.cpp	/^void AnatomyOMXClient::changeState(OMX_STATETYPE state) {$/;"	f	class:anatomy::AnatomyOMXClient
+createSoftOMXComponent	AnatomyOMXComponent.cpp	/^android::SoftOMXComponent *createSoftOMXComponent($/;"	f
+decodeBuffer	AnatomyOMXComponent.cpp	/^void AnatomyOMXComponent::decodeBuffer(OMX_U8* dst, OMX_U8* src, OMX_U32 size, OMX_U32* decoded_size) {$/;"	f	class:android::AnatomyOMXComponent
+deinit	AnatomyOMXClient.cpp	/^void AnatomyOMXClient::deinit() {$/;"	f	class:anatomy::AnatomyOMXClient
+destroyComponentInstance	AnatomyOMXPlugin.cpp	/^OMX_ERRORTYPE AnatomyOMXPlugin::destroyComponentInstance($/;"	f	class:android::AnatomyOMXPlugin
+enumerateComponents	AnatomyOMXPlugin.cpp	/^OMX_ERRORTYPE AnatomyOMXPlugin::enumerateComponents($/;"	f	class:android::AnatomyOMXPlugin
+excute	AnatomyOMXClient.cpp	/^void AnatomyOMXClient::excute() {$/;"	f	class:anatomy::AnatomyOMXClient
+freeBuffers	AnatomyOMXClient.cpp	/^void AnatomyOMXClient::freeBuffers() {$/;"	f	class:anatomy::AnatomyOMXClient
+getRolesOfComponent	AnatomyOMXPlugin.cpp	/^OMX_ERRORTYPE AnatomyOMXPlugin::getRolesOfComponent($/;"	f	class:android::AnatomyOMXPlugin
+getStatus	AnatomyOMXClient.h	/^	int getStatus(){ return mStatus; }$/;"	f	struct:anatomy::AnatomyOMXClient
+init	AnatomyOMXClient.cpp	/^void AnatomyOMXClient::init() {$/;"	f	class:anatomy::AnatomyOMXClient
+initPorts	AnatomyOMXComponent.cpp	/^void AnatomyOMXComponent::initPorts() {$/;"	f	class:android::AnatomyOMXComponent
+kCallbacks	AnatomyOMXClient.cpp	/^OMX_CALLBACKTYPE AnatomyOMXClient::kCallbacks = {$/;"	m	class:anatomy::AnatomyOMXClient	file:
+kCallbacks	AnatomyOMXClient.h	/^	static OMX_CALLBACKTYPE kCallbacks;$/;"	m	struct:anatomy::AnatomyOMXClient
+kComponentInfo	AnatomyOMXCore.cpp	/^} kComponentInfo[] = {$/;"	v	typeref:struct:__anon4	file:
+kComponents	AnatomyOMXPlugin.cpp	/^} kComponents[] = {$/;"	m	namespace:android	typeref:struct:android::__anon3	file:
+kInputPortIndex	AnatomyOMXComponent.h	/^        kInputPortIndex   = 0,$/;"	e	enum:android::AnatomyOMXComponent::__anon2
+kNumComponents	AnatomyOMXPlugin.cpp	/^static const size_t kNumComponents =$/;"	m	namespace:android	file:
+kNumInputBuffers	AnatomyOMXComponent.h	/^        kNumInputBuffers  = 2,$/;"	e	enum:android::AnatomyOMXComponent::__anon2
+kNumOutputBuffers	AnatomyOMXComponent.h	/^        kNumOutputBuffers = 5,$/;"	e	enum:android::AnatomyOMXComponent::__anon2
+kOutputPortIndex	AnatomyOMXComponent.h	/^        kOutputPortIndex  = 1,$/;"	e	enum:android::AnatomyOMXComponent::__anon2
+kPortIndexInput	AnatomyOMXClient.h	/^        kPortIndexInput  = 0,$/;"	e	enum:anatomy::AnatomyOMXClient::__anon1
+kPortIndexOutput	AnatomyOMXClient.h	/^        kPortIndexOutput = 1$/;"	e	enum:anatomy::AnatomyOMXClient::__anon1
+mBuffer	StdoutRenderer.h	/^	char mBuffer[256];$/;"	m	class:anatomy::StdoutRenderer
+mBufferHeader	AnatomyOMXClient.h	/^        OMX_BUFFERHEADERTYPE* mBufferHeader;$/;"	m	struct:anatomy::AnatomyOMXClient::OMXClientBufferInfo
+mBufferInfo	AnatomyOMXClient.h	/^    android::Vector<OMXClientBufferInfo> mBufferInfo;$/;"	m	struct:anatomy::AnatomyOMXClient
+mComponentHandle	AnatomyOMXClient.h	/^	OMX_HANDLETYPE mComponentHandle;$/;"	m	struct:anatomy::AnatomyOMXClient
+mEOSCondition	AnatomyOMXClient.h	/^	android::Condition mEOSCondition;$/;"	m	struct:anatomy::AnatomyOMXClient
+mExcutingCondition	AnatomyOMXClient.h	/^	android::Condition mExcutingCondition;$/;"	m	struct:anatomy::AnatomyOMXClient
+mIdleCondition	AnatomyOMXClient.h	/^	android::Condition mIdleCondition;$/;"	m	struct:anatomy::AnatomyOMXClient
+mLength	ATMParser.h	/^    int mLength;$/;"	m	class:anatomy::ATMParser
+mLibName	AnatomyOMXCore.cpp	/^    const char *mLibName;$/;"	m	struct:__anon4	file:
+mLibNameSuffix	AnatomyOMXPlugin.cpp	/^    const char *mLibNameSuffix;$/;"	m	struct:android::__anon3	file:
+mLoadedCondition	AnatomyOMXClient.h	/^	android::Condition mLoadedCondition;$/;"	m	struct:anatomy::AnatomyOMXClient
+mLock	AnatomyOMXClient.h	/^	android::Mutex mLock;$/;"	m	struct:anatomy::AnatomyOMXClient
+mName	AnatomyOMXCore.cpp	/^    const char *mName;$/;"	m	struct:__anon4	file:
+mName	AnatomyOMXPlugin.cpp	/^    const char *mName;$/;"	m	struct:android::__anon3	file:
+mOffset	ATMParser.h	/^	int mOffset;$/;"	m	class:anatomy::ATMParser
+mParser	AnatomyOMXClient.h	/^	ATMParser mParser;$/;"	m	struct:anatomy::AnatomyOMXClient
+mPortIndex	AnatomyOMXClient.h	/^        OMX_U32 mPortIndex;$/;"	m	struct:anatomy::AnatomyOMXClient::OMXClientBufferInfo
+mRenderer	AnatomyOMXClient.h	/^	StdoutRenderer mRenderer;$/;"	m	struct:anatomy::AnatomyOMXClient
+mRole	AnatomyOMXCore.cpp	/^    const char *mRole;$/;"	m	struct:__anon4	file:
+mRole	AnatomyOMXPlugin.cpp	/^    const char *mRole;$/;"	m	struct:android::__anon3	file:
+mStatus	AnatomyOMXClient.h	/^	int mStatus;$/;"	m	struct:anatomy::AnatomyOMXClient
+main	main_anatomy_omxclient.cpp	/^int main()$/;"	f
+makeComponentInstance	AnatomyOMXPlugin.cpp	/^OMX_ERRORTYPE AnatomyOMXPlugin::makeComponentInstance($/;"	f	class:android::AnatomyOMXPlugin
+onQueueFilled	AnatomyOMXComponent.cpp	/^void AnatomyOMXComponent::onQueueFilled(OMX_U32 portIndex) {$/;"	f	class:android::AnatomyOMXComponent
+prepare	AnatomyOMXClient.cpp	/^void AnatomyOMXClient::prepare() {$/;"	f	class:anatomy::AnatomyOMXClient
+pszSource	ATMParser.cpp	/^static char pszSource[] = "\\$/;"	m	namespace:anatomy	file:
+read	ATMParser.cpp	/^void ATMParser::read(void* buffer, int* length) {$/;"	f	class:anatomy::ATMParser
+read	AnatomyOMXClient.h	/^	void read(void* buffer,int* length){mParser.read(buffer, length);}$/;"	f	struct:anatomy::AnatomyOMXClient
+removeOMXBufferInfo	AnatomyOMXClient.cpp	/^void AnatomyOMXClient::removeOMXBufferInfo($/;"	f	class:anatomy::AnatomyOMXClient
+render	AnatomyOMXClient.h	/^	void render(void* buffer,int length){mRenderer.render(buffer, length);}$/;"	f	struct:anatomy::AnatomyOMXClient
+render	StdoutRenderer.cpp	/^void StdoutRenderer::render(void* buffer,int length) {$/;"	f	class:anatomy::StdoutRenderer
+setStatus	AnatomyOMXClient.h	/^	void setStatus(int status){ mStatus = status; }$/;"	f	struct:anatomy::AnatomyOMXClient
+signalEOF	AnatomyOMXClient.h	/^	void signalEOF() { mEOSCondition.signal(); }$/;"	f	struct:anatomy::AnatomyOMXClient
+signalExcutingState	AnatomyOMXClient.h	/^	void signalExcutingState() { mExcutingCondition.signal(); }$/;"	f	struct:anatomy::AnatomyOMXClient
+signalIdleState	AnatomyOMXClient.h	/^	void signalIdleState() { mIdleCondition.signal(); }$/;"	f	struct:anatomy::AnatomyOMXClient
+signalLoadedState	AnatomyOMXClient.h	/^	void signalLoadedState() { mLoadedCondition.signal(); }$/;"	f	struct:anatomy::AnatomyOMXClient
+start	AnatomyOMXClient.h	/^	void start() { excute(); waitEOF();}$/;"	f	struct:anatomy::AnatomyOMXClient
+stop	AnatomyOMXClient.cpp	/^void AnatomyOMXClient::stop() {$/;"	f	class:anatomy::AnatomyOMXClient
+waitEOF	AnatomyOMXClient.h	/^	void waitEOF() { mEOSCondition.wait(mLock); }$/;"	f	struct:anatomy::AnatomyOMXClient
+waitExcutingState	AnatomyOMXClient.h	/^	void waitExcutingState() { mExcutingCondition.wait(mLock);}$/;"	f	struct:anatomy::AnatomyOMXClient
+waitIdleState	AnatomyOMXClient.h	/^	void waitIdleState() { mIdleCondition.wait(mLock); }$/;"	f	struct:anatomy::AnatomyOMXClient
+waitLoadedState	AnatomyOMXClient.h	/^	void waitLoadedState() { mLoadedCondition.wait(mLock);}$/;"	f	struct:anatomy::AnatomyOMXClient
+~ATMParser	ATMParser.h	/^	virtual ~ATMParser(){}$/;"	f	class:anatomy::ATMParser
+~AnatomyOMXClient	AnatomyOMXClient.h	/^	virtual ~AnatomyOMXClient(){}$/;"	f	struct:anatomy::AnatomyOMXClient
+~AnatomyOMXComponent	AnatomyOMXComponent.cpp	/^AnatomyOMXComponent::~AnatomyOMXComponent() {$/;"	f	class:android::AnatomyOMXComponent
+~StdoutRenderer	StdoutRenderer.h	/^	virtual ~StdoutRenderer(){}$/;"	f	class:anatomy::StdoutRenderer
