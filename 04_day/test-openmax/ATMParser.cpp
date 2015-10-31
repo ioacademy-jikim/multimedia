@@ -20,6 +20,7 @@
 
 #include "ATMParser.h"
 #include <ctype.h>
+#include <string.h>
 #include <utils/Log.h>
 
 #define LOGD ALOGD

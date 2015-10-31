@@ -8,7 +8,6 @@ LOCAL_MODULE_TAGS := tests
 LOCAL_C_INCLUDES := \
 			$(LOCAL_PATH)/include \
 			bionic/ \
- 			external/stlport/stlport \
  			frameworks/base/include \
  			frameworks/av/media/libstagefright \
 			frameworks/native/include/media/openmax \
@@ -27,7 +26,6 @@ LOCAL_SHARED_LIBRARIES := \
 		libcutils\
 		libutils\
 		libdl\
- 		libstlport \
  		libstagefright_omx \
  		libstagefright_foundation \
 
@@ -40,7 +38,6 @@ LOCAL_MODULE_TAGS := tests
 LOCAL_C_INCLUDES := \
 			$(LOCAL_PATH)/include \
 			bionic/ \
- 			external/stlport/stlport \
  			frameworks/base/include \
  			frameworks/av/media/libstagefright \
 			frameworks/native/include/media/openmax \
@@ -49,7 +46,6 @@ LOCAL_SHARED_LIBRARIES := \
 		libcutils\
 		libutils\
 		libdl\
- 		libstlport \
  		libstagefright_omx \
  		libstagefright_foundation \
 
