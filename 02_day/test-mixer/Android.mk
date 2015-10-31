@@ -1,24 +1,18 @@
 LOCAL_PATH:= $(call my-dir)
-
 include $(CLEAR_VARS)
 
-LOCAL_SRC_FILES:= \
-	test-mixer.cpp \
-	AudioMixer.cpp.arm \
+LOCAL_SRC_FILES:=  test-mixer.cpp  AudioMixer.cpp.arm BufferProviders.cpp
 
 LOCAL_C_INCLUDES := \
-	bionic \
-	bionic/libstdc++/include \
-	external/stlport/stlport \
 	$(call include-path-for, audio-effects) \
 	$(call include-path-for, audio-utils) \
-	frameworks/av/services/audioflinger
+	frameworks/av/services/audioflinger \
+	external/sonic
 
 LOCAL_STATIC_LIBRARIES := \
 	libsndfile
 
 LOCAL_SHARED_LIBRARIES := \
-	libstlport \
 	libeffects \
 	libnbaio \
 	libcommon_time_client \
@@ -27,10 +21,13 @@ LOCAL_SHARED_LIBRARIES := \
 	libdl \
 	libcutils \
 	libutils \
-	liblog
+	liblog \
+	libsonic
 
 LOCAL_MODULE:= test-mixer
 
 LOCAL_MODULE_TAGS := optional
+
+LOCAL_CXX_STL := libc++
 
 include $(BUILD_EXECUTABLE)
