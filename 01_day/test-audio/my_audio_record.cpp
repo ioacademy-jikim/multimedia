@@ -122,7 +122,7 @@ unsigned int capture_sample(FILE *file,
 		sp<AudioRecord> record = new AudioRecord(
 				AUDIO_SOURCE_DEFAULT, rate, AUDIO_FORMAT_PCM_16_BIT,
 				audio_channel_in_mask_from_count(channels),
-				(size_t) (bufCount * frameCount)	
+				String16("AAA")
 				);
 		status = record->initCheck();
 		if(status != NO_ERROR) {
